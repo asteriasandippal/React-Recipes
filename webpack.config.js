@@ -19,6 +19,11 @@ const config = {
                 exclude: /node_modules/,
             },
             {
+                test: /\.css/,
+                loader: ['style-loader', 'css-loader', 'postcss-loader'],
+                exclude: /node_modules/,
+            },
+            {
                 test: /\.(png|jpeg|jpg)$/,
                 loader: 'file-loader',
             }
