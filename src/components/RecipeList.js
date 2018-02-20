@@ -1,22 +1,17 @@
 import React from 'react';
 
-function RecipeList({style}) {
+function RecipeList({style, recipes, onClick}) {
     return (
         <div style={style}>
             <h3>Recipes</h3>
             <ul>
-                <li>
-                    <span>Creepy halloween Skuill Cupcajkes</span>
-                    <span>Decembers</span>
-                </li>
-                <li>
-                    <span>Bluesverry Sour Cream Coffee Cakes</span>
-                    <span>Dessert</span>
-                </li>
-                <li>
-                    <span>Amazing Pork Tenderloin in the Slow Cooker</span>
-                    <span>Meat</span>
-                </li>
+                {recipes.map(recipe => (
+                    <li key={recipe.id}
+                        onClick={() => onClick(recipe.id)}>
+                        <span>{recipe.name}</span>
+                        <span>{recipe.category}</span>
+                    </li>
+                ))}
             </ul>
         </div>        
     )
