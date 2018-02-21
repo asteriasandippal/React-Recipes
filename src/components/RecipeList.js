@@ -25,13 +25,13 @@ function RecipeList({ style, recipes, onClick }) {
 
 RecipeList.defaultProps = {
   style: {},
-  recipes: {},
+  recipes: [],
   onClick: () => {},
 };
 
 RecipeList.propTypes = {
   style: PropTypes.object,
-  recipes: PropTypes.object,
+  recipes: PropTypes.array,
   onClick: PropTypes.func,
 };
 
