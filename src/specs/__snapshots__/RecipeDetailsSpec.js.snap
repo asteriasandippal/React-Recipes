@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipeDetails/> Should correctly asign a className 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className="h3 p2 bg-white italic center"
+  >
+    Please select a recipw to see the details.
+  </p>
+</div>
+`;
+
+exports[`<RecipeDetails/> Should render recipe without ingredients 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className="h3 p2 bg-white italic center"
+  >
+    Please select a recipw to see the details.
+  </p>
+</div>
+`;
+
+exports[`<RecipeDetails/> Should render recipe without steps 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className="h3 p2 bg-white italic center"
+  >
+    Please select a recipw to see the details.
+  </p>
+</div>
+`;
+
+exports[`<RecipeDetails/> Should render zero state 1`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className="h3 p2 bg-white italic center"
+  >
+    Please select a recipw to see the details.
+  </p>
+</div>
+`;
+
+exports[`<RecipeDetails/> Should render zero state 2`] = `
+<div
+  className=""
+  style={Object {}}
+>
+  <p
+    className="h3 p2 bg-white italic center"
+  >
+    Please select a recipw to see the details.
+  </p>
+</div>
+`;

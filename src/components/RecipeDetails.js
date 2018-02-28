@@ -28,21 +28,25 @@ function RecipeDetails({ style, currentRecipe, className }) {
           <span>{currentRecipe.calories}</span>
         </div>
         <h3>RecipeIngredient</h3>
+        {currentRecipe.ingredients &&
         <ul>
           {currentRecipe.ingredients.map(ingredient => (
             <li key={ingredient}>
               {ingredient}
             </li>
-                    ))}
-        </ul>
+          ))}
+        </ul>}
+
         <h3>Steps</h3>
-        <ol>
-          {currentRecipe.steps.map(step => (
-            <li key={step}>
-              {step}
-            </li>
-                    ))}
-        </ol>
+        {currentRecipe.steps &&
+          <ol>
+            {currentRecipe.steps.map(step => (
+              <li key={step}>
+                {step}
+              </li>
+            ))}
+          </ol>
+        }
       </div>
     </div>
   );

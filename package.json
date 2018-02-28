@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack-dev-server -wd",
     "check": "node ./index.js",
     "build": "./node-modules/.bin/babel ./index.js -o bundle.js",
-    "lint": "./node_modules/.bin/eslint ./src"
+    "lint": "./node_modules/.bin/eslint ./src",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -34,10 +34,12 @@
     "eslint": "^4.18.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.12.2",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
+    "jest": "^22.4.2",
     "postcss": "^6.0.19",
     "postcss-cssnext": "^3.1.0",
     "postcss-import": "^11.1.0",
@@ -51,6 +53,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
+    "react-test-renderer": "^16.2.0",
     "whatwg-fetch": "^2.0.3"
   }
 }

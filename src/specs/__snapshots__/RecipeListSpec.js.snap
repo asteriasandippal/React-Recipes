@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipeList/> Should not break when no recipes passed 1`] = `
+<ul
+  className="list-reset"
+/>
+`;
+
+exports[`<RecipeList/> Should render correctly 1`] = `
+<ul
+  className="list-reset"
+>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+  >
+    <span
+      aria-label="favorite"
+      className="mr1"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+    >
+      ❑
+    </span>
+    <span>
+      Recipe 1
+    </span>
+    <span>
+      Category 1
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+  >
+    <span
+      aria-label="favorite"
+      className="mr1"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+    >
+      ❑
+    </span>
+    <span>
+      Recipe 2
+    </span>
+    <span>
+      Category 2
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+  >
+    <span
+      aria-label="favorite"
+      className="mr1"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+    >
+      ❑
+    </span>
+    <span>
+      Recipe 3
+    </span>
+    <span>
+      Category 3
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`<RecipeList/> Should render favorites state correctly 1`] = `
+<ul
+  className="list-reset"
+>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+  >
+    <span
+      aria-label="favorite"
+      className="mr1"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+    >
+      ✔
+    </span>
+    <span>
+      Recipe 1
+    </span>
+    <span>
+      Category 1
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+  >
+    <span
+      aria-label="favorite"
+      className="mr1"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+    >
+      ❑
+    </span>
+    <span>
+      Recipe 2
+    </span>
+    <span>
+      Category 2
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="presentation"
+  >
+    <span
+      aria-label="favorite"
+      className="mr1"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+    >
+      ❑
+    </span>
+    <span>
+      Recipe 3
+    </span>
+    <span>
+      Category 3
+    </span>
+  </li>
+</ul>
+`;
